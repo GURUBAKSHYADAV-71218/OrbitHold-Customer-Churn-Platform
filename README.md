@@ -96,3 +96,18 @@ MEDIUM	Customer may require monitoring
 HIGH	Customer requires greater retention attention
 
 The exact thresholds are defined centrally by the risk engine so that the application remains consistent
+
+3. Individual Customer Investigation
+
+OrbitHold provides a dedicated customer analysis experience.
+
+Users can enter customer information such as:
+
+Gender
+Senior Citizen status
+Partner
+Dependents
+Tenure
+Phone Service
+Multiple Lines
+Internet Service
