@@ -12,3 +12,16 @@ Instead of stopping at a simple "will this customer churn?" prediction, OrbitHol
 
 The platform helps businesses identify customers at risk of churn, understand the factors driving that risk, prioritize retention opportunities, and determine practical actions that can be taken to improve customer retention.
 
+## Overview
+
+Customer churn is more than a machine-learning classification problem.
+
+A useful churn intelligence system should answer:
+
+- Which customers are most likely to churn?
+- How severe is their risk?
+- What factors are contributing to that risk?
+- Which customers require immediate attention?
+- What retention action should be considered?
+- How is churn distributed across the customer base?
+- What customer characteristics are associated with higher churn?
