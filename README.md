@@ -38,3 +38,32 @@ OrbitHold combines:
 - Interactive Data Visualization
 
 into a single customer intelligence platform.
+
+## Product Philosophy
+
+OrbitHold follows four core stages:
+
+```text
+┌─────────────┐
+│   PREDICT   │
+│ Who may     │
+│ churn?      │
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│   EXPLAIN   │
+│ Why is the  │
+│ risk high?  │
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│ PRIORITIZE  │
+│ Who needs   │
+│ attention?  │
+└──────┬──────┘
+       ↓
+┌─────────────┐
+│   RETAIN    │
+│ What action │
+│ can help?   │
+└─────────────┘
