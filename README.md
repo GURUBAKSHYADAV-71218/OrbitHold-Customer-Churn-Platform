@@ -71,3 +71,17 @@ OrbitHold follows four core stages:
 │ What action │
 │ can help?   │
 └─────────────┘
+
+Key Features
+1. Customer Churn Prediction
+
+OrbitHold uses a trained machine-learning model to estimate the probability that a customer will churn.
+
+For each customer, the system can provide:
+
+Churn probability
+Risk score
+Risk level
+Customer profile
+Risk-driving factors
+Recommended retention actions
