@@ -111,3 +111,14 @@ Tenure
 Phone Service
 Multiple Lines
 Internet Service
+Online Security
+Online Backup
+Device Protection
+Technical Support
+Streaming TV
+Streaming Movies
+Contract
+Paperless Billing
+Payment Method
+Monthly Charges
+Total Charges
