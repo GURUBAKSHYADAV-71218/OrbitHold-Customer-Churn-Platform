@@ -25,3 +25,16 @@ A useful churn intelligence system should answer:
 - What retention action should be considered?
 - How is churn distributed across the customer base?
 - What customer characteristics are associated with higher churn?
+
+OrbitHold combines:
+
+- Machine Learning
+- Customer Risk Scoring
+- Model Explainability
+- Customer Segmentation
+- Retention Recommendations
+- Batch CSV Analysis
+- Business Analytics
+- Interactive Data Visualization
+
+into a single customer intelligence platform.
