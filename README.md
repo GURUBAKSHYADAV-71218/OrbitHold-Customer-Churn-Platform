@@ -122,3 +122,13 @@ Paperless Billing
 Payment Method
 Monthly Charges
 Total Charges
+
+
+The platform then generates a customer risk profile.
+
+Example output
+Customer Risk Profile
+
+Churn Probability       78.3%
+Risk Score              78 / 100
+Risk Level              HIGH
