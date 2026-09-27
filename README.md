@@ -85,3 +85,14 @@ Risk level
 Customer profile
 Risk-driving factors
 Recommended retention actions
+
+2. Risk Classification
+
+Customer churn probability is translated into an easier-to-understand business risk level:
+
+Risk Level	Description
+LOW	Lower estimated churn risk
+MEDIUM	Customer may require monitoring
+HIGH	Customer requires greater retention attention
+
+The exact thresholds are defined centrally by the risk engine so that the application remains consistent
