@@ -146,3 +146,10 @@ The interface separates:
 Risk Drivers
 
 Factors contributing positively toward churn risk.
+Protective Factors
+
+Factors contributing negatively toward churn risk.
+
+The UI presents these contributions using readable business terminology rather than exposing raw machine-learning feature names whenever possible.
+
+OrbitHold labels this as Model Contribution rather than incorrectly calling coefficient-based inference SHAP.
