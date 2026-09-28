@@ -132,3 +132,17 @@ Customer Risk Profile
 Churn Probability       78.3%
 Risk Score              78 / 100
 Risk Level              HIGH
+
+4. Model Explainability
+
+A prediction is much more useful when the user understands why the model produced it.
+
+OrbitHold therefore provides model contribution analysis.
+
+For linear model inference, the system calculates feature-level contributions based on the trained model coefficients and transformed feature values.
+
+The interface separates:
+
+Risk Drivers
+
+Factors contributing positively toward churn risk.
