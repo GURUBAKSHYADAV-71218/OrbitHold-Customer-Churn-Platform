@@ -205,3 +205,8 @@ Customer outreach prioritization
 Billing/payment friction review
 
 Recommendations are generated from customer information and risk context rather than being random static messages.
+6. Batch Customer Analysis
+
+Businesses can upload customer data through CSV.
+
+OrbitHold validates the uploaded dataset before processing it.
