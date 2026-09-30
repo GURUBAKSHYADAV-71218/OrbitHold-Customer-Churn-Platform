@@ -210,3 +210,18 @@ Recommendations are generated from customer information and risk context rather 
 Businesses can upload customer data through CSV.
 
 OrbitHold validates the uploaded dataset before processing it.
+The batch analysis workflow includes:
+
+CSV Upload
+    ↓
+Schema Validation
+    ↓
+Data Validation
+    ↓
+Customer Scoring
+    ↓
+Risk Classification
+    ↓
+Analytics
+    ↓
+Prioritized Customer List
