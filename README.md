@@ -189,3 +189,19 @@ Risk Classification
 Analytics
     ↓
 Prioritized Customer List
+
+5. Retention Recommendation Engine
+
+OrbitHold goes beyond prediction by generating practical retention recommendations based on the customer's profile and risk characteristics.
+
+Possible actions may include:
+
+Contract upgrade incentives
+Pricing review
+Technical support offers
+Security or service-package recommendations
+Early-tenure retention campaigns
+Customer outreach prioritization
+Billing/payment friction review
+
+Recommendations are generated from customer information and risk context rather than being random static messages.
