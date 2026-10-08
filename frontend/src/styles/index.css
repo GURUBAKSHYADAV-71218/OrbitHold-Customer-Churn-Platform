@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: theme("colors.parchment.DEFAULT");
+    background-image: theme("backgroundImage.grain");
+  }
+  h1, h2, h3, h4 {
+    font-family: theme("fontFamily.display");
+    letter-spacing: -0.01em;
+  }
+  ::selection {
+    background-color: theme("colors.mustard.DEFAULT");
+    color: theme("colors.espresso.DEFAULT");
+  }
+  :focus-visible {
+    outline: 2px solid theme("colors.terracotta.DEFAULT");
+    outline-offset: 2px;
+  }
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@layer components {
+  .paper-card {
+    @apply bg-parchment-light border border-espresso/10 rounded-card shadow-paper;
+  }
+  .label-tag {
+    @apply inline-flex items-center gap-1.5 text-xs font-semibold uppercase tracking-wide;
+  }
+  .kpi-value {
+    @apply font-display text-3xl md:text-4xl text-espresso;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-terracotta text-parchment-light
+      px-5 py-2.5 font-sans font-semibold text-sm tracking-wide
+      hover:bg-dustyred transition-colors duration-150
+      focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-espresso
+      disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border border-espresso/20 bg-transparent
+      text-espresso px-5 py-2.5 font-sans font-semibold text-sm tracking-wide
+      hover:bg-espresso/5 transition-colors duration-150
+      focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-espresso;
+  }
+  .risk-badge-low {
+    @apply label-tag bg-olive/10 text-olive-light px-2.5 py-1 rounded-full;
+  }
+  .risk-badge-medium {
+    @apply label-tag bg-mustard/15 text-mustard-dark px-2.5 py-1 rounded-full;
+  }
+  .risk-badge-high {
+    @apply label-tag bg-dustyred/10 text-dustyred px-2.5 py-1 rounded-full;
+  }
+}

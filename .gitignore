@@ -1,0 +1,34 @@
+# Node / frontend
+node_modules/
+dist/
+frontend/dist/
+.vite/
+*.log
+npm-debug.log*
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Vercel
+.vercel/
+
+# Python / ML
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+coverage/
+*.tsbuildinfo
+
+.vercel

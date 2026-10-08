@@ -1,0 +1,144 @@
+{
+  "model_type": "Logistic Regression (class_weight=balanced)",
+  "dataset_size": 877,
+  "train_size": 701,
+  "test_size": 176,
+  "churn_distribution": {
+    "churned": 223,
+    "retained": 654,
+    "churn_rate": 0.2543
+  },
+  "accuracy": 0.7955,
+  "precision": 0.56,
+  "recall": 0.9333,
+  "f1_score": 0.7,
+  "roc_auc": 0.8858,
+  "confusion_matrix": {
+    "true_negative": 98,
+    "false_positive": 33,
+    "false_negative": 3,
+    "true_positive": 42
+  },
+  "feature_importance": [
+    {
+      "feature": "Contract__Two year",
+      "coefficient": -1.2703380333744607
+    },
+    {
+      "feature": "tenure",
+      "coefficient": -1.162205005656693
+    },
+    {
+      "feature": "TechSupport__Yes",
+      "coefficient": -0.7702226012462936
+    },
+    {
+      "feature": "InternetService__Fiber optic",
+      "coefficient": 0.614206372197306
+    },
+    {
+      "feature": "OnlineSecurity__Yes",
+      "coefficient": -0.4926250643793696
+    },
+    {
+      "feature": "Contract__One year",
+      "coefficient": -0.4779574704907149
+    },
+    {
+      "feature": "TotalCharges",
+      "coefficient": 0.3845780346091334
+    },
+    {
+      "feature": "PaymentMethod__Credit card (automatic)",
+      "coefficient": -0.38087609845029036
+    },
+    {
+      "feature": "PaymentMethod__Electronic check",
+      "coefficient": 0.35359496779248445
+    },
+    {
+      "feature": "StreamingMovies__Yes",
+      "coefficient": 0.3356334095597677
+    },
+    {
+      "feature": "SeniorCitizen",
+      "coefficient": 0.3267348621126877
+    },
+    {
+      "feature": "Dependents",
+      "coefficient": -0.3069413876332774
+    },
+    {
+      "feature": "MultipleLines__No phone service",
+      "coefficient": 0.2866993462213957
+    },
+    {
+      "feature": "PhoneService",
+      "coefficient": -0.26250979254799867
+    },
+    {
+      "feature": "PaymentMethod__Mailed check",
+      "coefficient": -0.17464744821226447
+    },
+    {
+      "feature": "MonthlyCharges",
+      "coefficient": 0.14169507971630843
+    },
+    {
+      "feature": "DeviceProtection__Yes",
+      "coefficient": 0.14097130683262324
+    },
+    {
+      "feature": "Partner",
+      "coefficient": 0.12788148648654232
+    },
+    {
+      "feature": "InternetService__No",
+      "coefficient": -0.09853184192258863
+    },
+    {
+      "feature": "OnlineSecurity__No internet service",
+      "coefficient": -0.09853184192258863
+    },
+    {
+      "feature": "OnlineBackup__No internet service",
+      "coefficient": -0.09853184192258863
+    },
+    {
+      "feature": "DeviceProtection__No internet service",
+      "coefficient": -0.09853184192258863
+    },
+    {
+      "feature": "TechSupport__No internet service",
+      "coefficient": -0.09853184192258863
+    },
+    {
+      "feature": "StreamingTV__No internet service",
+      "coefficient": -0.09853184192258863
+    },
+    {
+      "feature": "StreamingMovies__No internet service",
+      "coefficient": -0.09853184192258863
+    },
+    {
+      "feature": "MultipleLines__Yes",
+      "coefficient": -0.06044195473073536
+    },
+    {
+      "feature": "PaperlessBilling",
+      "coefficient": -0.04396516058022424
+    },
+    {
+      "feature": "StreamingTV__Yes",
+      "coefficient": 0.04374239379399502
+    },
+    {
+      "feature": "gender",
+      "coefficient": -0.0437347344080176
+    },
+    {
+      "feature": "OnlineBackup__Yes",
+      "coefficient": 0.022089904464923052
+    }
+  ]
+}

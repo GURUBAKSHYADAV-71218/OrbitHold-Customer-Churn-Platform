@@ -1,0 +1,184 @@
+{
+  "model_type": "logistic_regression",
+  "intercept": 0.03248359839410923,
+  "feature_names": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges",
+    "gender",
+    "Partner",
+    "Dependents",
+    "PhoneService",
+    "PaperlessBilling",
+    "SeniorCitizen",
+    "MultipleLines__No phone service",
+    "MultipleLines__Yes",
+    "InternetService__Fiber optic",
+    "InternetService__No",
+    "OnlineSecurity__No internet service",
+    "OnlineSecurity__Yes",
+    "OnlineBackup__No internet service",
+    "OnlineBackup__Yes",
+    "DeviceProtection__No internet service",
+    "DeviceProtection__Yes",
+    "TechSupport__No internet service",
+    "TechSupport__Yes",
+    "StreamingTV__No internet service",
+    "StreamingTV__Yes",
+    "StreamingMovies__No internet service",
+    "StreamingMovies__Yes",
+    "Contract__One year",
+    "Contract__Two year",
+    "PaymentMethod__Credit card (automatic)",
+    "PaymentMethod__Electronic check",
+    "PaymentMethod__Mailed check"
+  ],
+  "coefficients": [
+    -1.162205005656693,
+    0.14169507971630843,
+    0.3845780346091334,
+    -0.0437347344080176,
+    0.12788148648654232,
+    -0.3069413876332774,
+    -0.26250979254799867,
+    -0.04396516058022424,
+    0.3267348621126877,
+    0.2866993462213957,
+    -0.06044195473073536,
+    0.614206372197306,
+    -0.09853184192258863,
+    -0.09853184192258863,
+    -0.4926250643793696,
+    -0.09853184192258863,
+    0.022089904464923052,
+    -0.09853184192258863,
+    0.14097130683262324,
+    -0.09853184192258863,
+    -0.7702226012462936,
+    -0.09853184192258863,
+    0.04374239379399502,
+    -0.09853184192258863,
+    0.3356334095597677,
+    -0.4779574704907149,
+    -1.2703380333744607,
+    -0.38087609845029036,
+    0.35359496779248445,
+    -0.17464744821226447
+  ],
+  "numeric_features": [
+    "tenure",
+    "MonthlyCharges",
+    "TotalCharges"
+  ],
+  "scaler": {
+    "mean": {
+      "tenure": 32.530670470756064,
+      "MonthlyCharges": 65.89194008559201,
+      "TotalCharges": 2337.7843081312412
+    },
+    "scale": {
+      "tenure": 25.032834089945148,
+      "MonthlyCharges": 29.770659807844584,
+      "TotalCharges": 2296.045601793867
+    }
+  },
+  "binary_features": {
+    "gender": {
+      "Male": 1,
+      "Female": 0
+    },
+    "Partner": {
+      "Yes": 1,
+      "No": 0
+    },
+    "Dependents": {
+      "Yes": 1,
+      "No": 0
+    },
+    "PhoneService": {
+      "Yes": 1,
+      "No": 0
+    },
+    "PaperlessBilling": {
+      "Yes": 1,
+      "No": 0
+    }
+  },
+  "categorical_features": {
+    "MultipleLines": {
+      "baseline": "No",
+      "levels": [
+        "No phone service",
+        "Yes"
+      ]
+    },
+    "InternetService": {
+      "baseline": "DSL",
+      "levels": [
+        "Fiber optic",
+        "No"
+      ]
+    },
+    "OnlineSecurity": {
+      "baseline": "No",
+      "levels": [
+        "No internet service",
+        "Yes"
+      ]
+    },
+    "OnlineBackup": {
+      "baseline": "No",
+      "levels": [
+        "No internet service",
+        "Yes"
+      ]
+    },
+    "DeviceProtection": {
+      "baseline": "No",
+      "levels": [
+        "No internet service",
+        "Yes"
+      ]
+    },
+    "TechSupport": {
+      "baseline": "No",
+      "levels": [
+        "No internet service",
+        "Yes"
+      ]
+    },
+    "StreamingTV": {
+      "baseline": "No",
+      "levels": [
+        "No internet service",
+        "Yes"
+      ]
+    },
+    "StreamingMovies": {
+      "baseline": "No",
+      "levels": [
+        "No internet service",
+        "Yes"
+      ]
+    },
+    "Contract": {
+      "baseline": "Month-to-month",
+      "levels": [
+        "One year",
+        "Two year"
+      ]
+    },
+    "PaymentMethod": {
+      "baseline": "Bank transfer (automatic)",
+      "levels": [
+        "Credit card (automatic)",
+        "Electronic check",
+        "Mailed check"
+      ]
+    }
+  },
+  "risk_thresholds": {
+    "low_max": 0.3,
+    "medium_max": 0.6
+  }
+}
